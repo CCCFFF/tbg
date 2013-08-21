@@ -1,4 +1,8 @@
 Tbg::Application.routes.draw do
+
+
+  resources :blogs
+
   resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.
@@ -41,7 +45,7 @@ Tbg::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
