@@ -1,6 +1,8 @@
 Tbg::Application.routes.draw do
 
 
+  resources :comments
+
   resources :blogs
 
   resources :users
